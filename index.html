@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>Quiz Game</title>
+</head>
+<body>
+    <div class="home-box custom-box">
+        <h3>Instructions:</h3>
+        <p>Total number of questions: <span class="total-question"></span></p>
+        <button type="button" class="btn" onclick="StartQuiz()">Start Game</button>
+    </div>
+    <div class="quiz-box custom-box">
+        <div class="question-number"></div>
+        <div class="question-text"></div>
+        <div class="option-container"> 
+             <div class="option"></div>
+             <div class="option"></div>
+             <div class="option"></div>
+             <div class="option"></div>
+        </div>
+        <div class="next-btn"> 
+        <button type="button" class="btn" onclick="next">Submit</button>
+    </div>
+
+    <div class="result-box custom-box">
+        <h1>Game Result</h1>
+        <table>
+            <tr>
+            <td>Total Questions</td>
+            <td><span class="total-question"></span></td>
+            </tr>
+            <tr>
+                <td>Attempts</td>
+                <td><span class="total-attempt"></span></td>
+            </tr>
+            <tr>
+                <td>Total Correct</td>
+                <td><span class="total-correct"></span></td>
+            </tr>
+            <tr>
+                <td>Total Wrong</td>
+                <td><span class="total-wrong"></span></td>
+            </tr>
+            <tr>
+                <td>Percentatges</td>
+                <td><span class="percentatge"></span></td>
+            </tr>
+            <tr>
+                <td>Your Final Result</td>
+                <td><span class="total-score"></span></td>
+            </tr>
+        </table>
+        <button type="button" class="btn" onclick="tryAgain()">Try Again</button>
+        <button type="button" class="btn" onclick="finishGame()">Finish Game</button>
+      </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
