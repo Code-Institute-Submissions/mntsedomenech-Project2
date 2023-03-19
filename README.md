@@ -20,10 +20,14 @@ HTML: No errors were returned when passing through the official W3C validator.
 CSS: No errors were found when passing through the official (Jigsaw) validator.
 JavaScript: JavaScript code passes through a linter (e.g. jshint.com) with no significant issues.
 
-Deployment
+Deployment:
 
 The depaloyment process was made using GitHub and the steps were as follow:
 
 -In the GitHub repository, I went to the Setting tab
 -From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+Credtis:
+
+Source code: The WebShala - Random Quiz Application using HTML CSS Javascript from Youtube Tutorial 
